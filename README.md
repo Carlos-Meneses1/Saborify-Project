@@ -1,3 +1,12 @@
+# To Start and Run the Project
+
+- Click the <> Code button.
+- Select "Create codespace on develop".
+- Once the environment has loaded, run the following commands to start both services:
+
+- $ npm run start        # Run the Front-End
+- $ pipenv run start     # Run the Back-End
+
 # WebApp boilerplate with React JS and Flask API
 
 Web application with React.js for the frontend and Python/Flask for the backend API
