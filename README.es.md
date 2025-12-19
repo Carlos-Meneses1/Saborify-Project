@@ -1,11 +1,21 @@
+# Para Iniciar y ver el proyecto
+
+- Haz click en el botón <>Code.
+- Selecciona "create codespace on develop".
+- Una ves Cargado Introduce los siguientes comandos.
+
+  $ npm run start    ------ Para ejecutar el Front-End
+  $ pipenv run start    ---------- Para ejecutar el Back-End0
+  
+
+
 # Plantilla de WebApp con React JS y Flask API
 
-Construye aplicaciones web usando React.js para el front end y python/flask para tu API backend.
-
-- La documentación se puede encontrar aquí: https://4geeks.com/docs/start/react-flask-template
+ Aplicacione web con React.js para el front end y python/flask para tu API backend.
+ 
 - Aquí hay un video sobre [cómo usar esta plantilla](https://www.youtube.com/watch?v=qBz6Ddd2m38)
 - Integrado con Pipenv para la gestión de paquetes.
-- Despliegue rápido a Render [en solo unos pocos pasos aquí](https://4geeks.com/es/docs/start/despliega-con-render-com).
+- Despliegue rápido a Render 
 - Uso del archivo .env.
 - Integración de SQLAlchemy para la abstracción de bases de datos.
 
@@ -27,7 +37,7 @@ Se recomienda instalar el backend primero, asegúrate de tener Python 3.10, Pipe
 
 4. Migra las migraciones: `$ pipenv run migrate` (omite si no has hecho cambios en los modelos en `./src/api/models.py`)
 5. Ejecuta las migraciones: `$ pipenv run upgrade`
-6. Ejecuta la aplicación: `$ pipenv run start`
+6. Ejecuta la aplicación: `$ pipenv run start` 
 
 > Nota: Los usuarios de Codespaces pueden conectarse a psql escribiendo: `psql -h localhost -U gitpod example`
 
@@ -68,14 +78,6 @@ Cada entorno de Github Codespace tendrá **su propia base de datos**, por lo que
 -   Asegúrate de estar usando la versión 20 de node y de que ya hayas instalado y ejecutado correctamente el backend.
 
 1. Instala los paquetes: `$ npm install`
-2. ¡Empieza a codificar! inicia el servidor de desarrollo de webpack `$ npm run start`
+2. ¡Empieza a codificar! inicia el servidor de desarrollo de webpack `$ npm run start`  
 
-## ¡Publica tu sitio web!
 
-Esta plantilla está 100% lista para desplegarse con Render.com y Heroku en cuestión de minutos. Por favor, lee la [documentación oficial al respecto](https://4geeks.com/docs/start/deploy-to-render-com).
-
-### Contribuyentes
-
-Esta plantilla fue construida como parte del [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) de 4Geeks Academy por [Alejandro Sanchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. Descubre más sobre nuestro [Curso de Desarrollador Full Stack](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) y [Bootcamp de Ciencia de Datos](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
-
-Puedes encontrar otras plantillas y recursos como este en la [página de github de la escuela](https://github.com/4geeksacademy/).
