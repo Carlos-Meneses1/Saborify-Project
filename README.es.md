@@ -4,8 +4,8 @@
 - Selecciona "create codespace on develop".
 - Una ves Cargado Introduce los siguientes comandos.
 
-  $ npm run start    ------ Para ejecutar el Front-End
-         $ pipenv run start    ---------- Para ejecutar el Back-End
+ - $ npm run start    ------ Para ejecutar el Front-End
+   -  $ pipenv run start    ---------- Para ejecutar el Back-End
   
 
 
